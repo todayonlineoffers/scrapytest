@@ -9,7 +9,7 @@
 
 BOT_NAME = 'quotes_scrapy'
 
-SPIDER_MODULES = ['quotes_scrapy.spiders']
+SPIDER_MODULES = ['quotes_scrapy.spiders', 'quotes_scrapy']
 NEWSPIDER_MODULE = 'quotes_scrapy.spiders'
 
 
