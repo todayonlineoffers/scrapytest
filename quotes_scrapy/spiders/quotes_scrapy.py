@@ -3,7 +3,7 @@ from scrapy.loader import ItemLoader
 from scrapy import Spider
 from quotes_scrapy.items import QuotesScrapyItem
 
-class QuotesSpider(scrapy.Spider):
+class Quotes_scrapySpider(scrapy.Spider):
     name = 'quotes_scrapy'
     allowed_domains = ['quotes.toscrape.com']
     start_urls = ['http://quotes.toscrape.com/']
